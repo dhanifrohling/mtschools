@@ -1,0 +1,18 @@
+/* Homepage styling. */
+
+body {
+    min-width: 320px;
+    margin: 0;          /* Remove default margin */
+}
+
+section {
+    position: fixed;
+    bottom: 55px;
+    width: 100%;
+    padding-bottom: 10px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    color: #808080;     /* 50% grey */
+    text-align: center;
+    z-index: -1;       /* Keep under navigation */
+}

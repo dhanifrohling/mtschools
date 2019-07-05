@@ -1,0 +1,130 @@
+/* Styling of the header, navigation, and Google search bar. */
+
+header {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+div#topBar {
+    position: fixed;                    /* To always remain at the top of the page */
+    width: 100%;
+	height: 50px;
+	background-color: #808080;          /* 50% grey */
+    z-index: 10;                        /* Keep ontop of all other items */
+}
+
+nav#navPanel {
+    position: fixed;
+    top: 50px;
+    width: 100%;
+    background-color: #FFFFFF;          /* To cover page content */
+    box-shadow: 4px 4px 10px #CCCCCC;   /* Panel's dropdown shadow */
+    z-index: 10;                        /* Keep ontop of all other items */
+}
+
+span#category {
+    display: inline-block;
+    width: calc(100% / 7);              /* Seven columns */
+    padding-bottom: 30px;               /* Padding for the tallest column */
+    vertical-align: top;
+}
+
+h1#category {
+    display: flex;                      /* For vertical alignment of text */
+    height: 50px;
+    margin: 0 0 10px;                   /* Top | left & right | bottom */
+    padding: 0 10px;                    /* Top & bottom | left & right */
+    background-color: #9ACD32;          /* 50% green */
+    font-size: 12pt;
+    color: #FFFFFF;
+    align-items: center;                /* Center vertical align text */
+    font-weight: normal;                /* Remove default font weight */
+}
+
+h1#category:hover {
+	cursor: default;                    /* Use default cursor on hover */
+}
+
+ul#topics {
+    margin: 0;                          /* Remove default margin */
+    padding: 0;                         /* Remove default padding */
+}
+
+li#topic {
+    margin: 0;                          /* Remove default margin */
+    padding: 0;                         /* Remove default padding */
+    list-style-type: none;              /* Remove default bullet points */
+}
+
+a#topic {
+    display: flex;                      /* For vertical alignment of text */
+    height: 11mm;                       /* Appropiate height for touch devices */
+    margin: 5px;
+    border-radius: 10px;                /* Round corners */
+    padding: 0 10px;                    /* Top & bottom | left & right */
+    font-size: 11pt;
+    color: #808080;                     /* 50% grey */
+    align-items: center;                /* Center vertical align text */
+    text-decoration: none;              /* Remove default link decoration */
+}
+
+a#topic:hover {
+    background-color: #E6E6E6;          /* 90% grey */
+}
+
+div#srchPanel {
+    position: fixed;
+    top: 50px;
+    padding: 40px 120px;                /* Top & bottom | left & right */
+    box-shadow: 4px 4px 10px #CCCCCC;   /* Panel's dropdown shadow */
+    background-color: #FFFFFF;          /* To cover page content */
+    z-index: 10;                        /* Keep ontop of all other items */
+}
+
+p#srchLabel {
+	margin: 1px;                        /* Matchs Google margin */
+	font-size: 11pt;
+	color: #808080;
+}
+
+/* Google's search bar styling. */
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button,
+input.gsc-search-button-v2 {
+	box-sizing  : content-box;
+	line-height : normal;
+}
+
+.gsc-control-cse,
+.gsc-control-cse-en {
+    padding: 0 !important;              /* Remove search field's padding */
+}
+
+/* Styling for when a screen's width is less than or equal to 768px. */
+@media screen and (max-width: 768px) {
+
+    nav#navPanel {
+        position: absolute !important;
+    }
+
+    div#srchPanel {
+        position: absolute !important;
+    }
+
+    span#category {
+        width: 100% !important;
+        padding-bottom: 10px !important;
+    }
+
+    h1#category {
+        margin-bottom: 10px !important;
+        justify-content: center;        /* Center align text */
+    }
+
+    a#topic {
+        margin: 5px 10px;               /* Top & bottom | left & right */
+        justify-content: center;        /* Center align text */
+    }
+}

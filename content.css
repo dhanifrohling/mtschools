@@ -1,0 +1,230 @@
+/* Styling of the content page. */
+
+/* Sections of page. */
+body {
+    min-width: 320px;
+    margin: 0;                          /* Remove default margins */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+}
+
+aside#left {
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    width: 220px;
+    padding: 10px;
+    background-color: #F2F2F2;          /* 95% grey */
+    /*overflow-y: auto;*/
+    z-index: -1;                        /* Keep below navigation panel */
+}
+
+article#content {
+    position: absolute;
+    top: 50px;
+    left: 220px;
+    right: 220px;
+    padding: 10px;
+    z-index: -1;                        /* Keep below navigation panel */
+}
+
+article#right {
+    z-index: -1;                        /* Keep below navigation panel */
+}
+
+/* Page navigation. */
+h1#article {
+    margin: 0;                          /* Remove default margin */
+    padding: 0;                         /* Remove default padding */
+    font-size: 16pt;
+    color: #8BB82D;                     /* 45% green */
+    padding-bottom: 10px;
+    font-weight: normal;                /* Remove default bold */
+}
+
+a#article {
+    display: block;
+}
+
+ul#sections {
+    margin: 0;                          /* Remove default margin */
+    padding: 0;                         /* Remove default padding */
+}
+
+li#section {
+    margin: 0;                          /* Remove default margin */
+    padding: 0;                         /* Remove default padding */
+    list-style-type: none;              /* Remove default bullet points */
+}
+
+a#section {
+    display: flex;                      /* For vertical alignment of text */
+    height: 11mm;                       /* Appropiate height for touch devices */
+    margin-bottom: 2px;
+    border-radius: 10px;                /* Round corners */
+    border: 1px solid #CCCCCC;          /* 80% grey */
+    padding: 0 10px;                    /* Top & bottom | left & right */
+    background-color: #E6E6E6;
+    font-size: 11pt;
+	color: #666666;                     /* 40% grey */
+    align-items: center;                /* Center vertical align text */
+}
+
+a#section:hover {
+    text-decoration: none;              /* Remove default text decoration */
+    background-color: #CCCCCC;          /* 80% grey */
+    color: #666666;                     /* 40% grey */
+}
+
+/* Page content. */
+* {
+    box-sizing: border-box;             /* Remove padding & borders from the total width & height of all HTML elements */
+}
+
+a {
+    text-decoration: none;              /* Remove default text decoration */
+}
+
+a:link,
+a:visited {
+    color: #9ACD32; /* 50% green */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 0;                          /* Remove default margin */
+    font-size: 24pt;
+    font-weight: normal;                /* Remove default bold */
+}
+
+h1:before {                             /* Adds a hidden block before a heading upon link click */
+    display: block;
+    content: " ";
+    height: 60px; 
+    margin-top: -60px;
+    visibility: hidden;
+}
+
+h2 {
+    margin: 0;                          /* Remove default margin */
+    font-size: 16pt;
+    font-weight: normal;                /* Remove default bold */
+}
+
+h2:before {                             /* Adds a hidden block before a heading upon link click */
+    display: block;
+    content: " ";
+    height: 60px;
+    margin-top: -60px;
+    visibility: hidden;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 100%;                    /* Scale images if required */
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #CCCCCC;          /* 80% grey */
+}
+
+th {
+    height: 40px;
+    background-color: #9ACD32;          /* 50% green */
+    font-size: 13pt;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+tr.alt td {
+    background-color: #F2F2F2;
+}
+
+.center-cell {
+    text-align: center;
+}
+
+.size-a {
+    width: 100%;
+}
+
+.size-b {
+    width: 50%;
+}
+
+.size-c {
+    width: 33.33%;
+}
+
+.size-d {
+    width: 25%;
+}
+
+.size-e {
+    width: 300px;
+}
+
+p#song {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Sitemap styling. */
+td.sitemap {
+    padding: 10px;
+    vertical-align: top;
+}
+
+td.sm_heading {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #9ACD32;
+}
+
+/* Styling for when a screen's width is less than or equal to 1024px. */
+@media only screen and (max-width: 1024px) {
+    aside#right {
+        display: none !important;
+    }
+    article#content {
+        right: 0 !important;
+    }
+}
+
+/* Styling for when a screen's width is less than or equal to 768px. */
+@media only screen and (max-width: 768px) {
+    aside#left {
+        position: relative !important;
+        top: 50px !important;
+        width: 100% !important;
+        height: initial !important;
+        padding: 10px !important;
+        z-index: 1;                     /* Make links clickable */
+    }
+
+    article#content {
+        position: relative !important;
+        left: 0 !important;
+        top: 50px !important;
+        width: 100%;
+        height: initial !important;
+        padding: 10px !important;
+        z-index: 1;                     /* Make links clickable */
+    }
+}
+
+    /*Order elements in items*/

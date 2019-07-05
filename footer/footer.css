@@ -1,0 +1,39 @@
+/* Styling of the footer of each page. */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    z-index: -1;               /* Keeps under navigation */
+}
+
+ul#botNav {
+    margin: 0;                  /* Remove default margin & margin. */
+    padding: 0 0 10px;          /* Top | left & right | bottom */
+    text-align: center;
+    font-size: 10pt;
+    color: #808080;             /* 50% grey */
+}
+
+li#botNavItem {
+    display: inline;
+}
+
+a#botNavItem {
+    text-decoration: none;
+    font-size: 10pt;
+    color: #808080;             /* 50% grey */
+}
+
+a#footer:hover {
+    text-decoration: underline;
+}
+
+p#copyright {
+    margin: 0;                  /* Remove default margin & padding. */
+    padding: 0 0 10px;          /* Top | left & right | bottom */
+    text-align: center;
+    font-size: 9pt;
+    color: #BFBFBF;             /* 25% grey */
+}

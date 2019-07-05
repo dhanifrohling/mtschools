@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	  
+	<!-- Homepage -->
+	<url>
+		<loc>http://www.mtschools.net/</loc>
+	</url>
+
+	<!-- Basics -->
+	<url>
+		<loc>http://www.mtschools.net/notes</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/rests</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/staff</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/clefs</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/bar</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/barlines</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/ledgerline</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/system</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/brace</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/voice</loc>
+	</url>
+
+	<!-- Rhythm -->
+	<url>
+		<loc>http://www.mtschools.net/noteandrestvalues</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/beam</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/dottednote</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/tie</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/timesignatures</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/tempo</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/tuplets</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/tremolos</loc>
+	</url>
+
+	<!-- Pitch & Melody -->
+	<url>
+		<loc>http://www.mtschools.net/accidentals</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/intervals</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/scales</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/modes</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/arpeggios</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/keysignatures</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/lyrics</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/phrase</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/contours</loc>
+	</url>
+
+	<!-- Harmony -->
+	<url>
+		<loc>http://www.mtschools.net/chords</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/chordprogressions</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/cadences</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/counterpoint</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/texture</loc>
+	</url>
+
+	<!-- Expression & Technique -->
+	<url>
+		<loc>http://www.mtschools.net/expressionmarks</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/dynamics</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/slur</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/slide</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/vibrato</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/articulations</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/ornaments</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/noteheads</loc>
+	</url>
+
+	<!-- Form -->
+	<url>
+		<loc>http://www.mtschools.net/repeats</loc>
+	</url>
+
+	<!-- Mechanics -->
+	<url>
+		<loc>http://www.mtschools.net/tone</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/sinewave</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/adsr</loc>
+	</url>
+	
+	<!-- Other -->
+	<url>
+		<loc>http://www.mtschools.net/contact</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/about</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/sitemap</loc>
+	</url>
+	<url>
+		<loc>http://www.mtschools.net/links</loc>
+	</url>
+	
+</urlset>
