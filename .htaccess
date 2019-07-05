@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^([a-z]+)$ content.php?topic=$1
+
+ErrorDocument 404 http://www.mtschools.net
